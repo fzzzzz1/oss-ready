@@ -1,5 +1,8 @@
 # oss-ready
 
+[![ci](https://github.com/fzzzzz1/oss-ready/actions/workflows/ci.yml/badge.svg)](https://github.com/fzzzzz1/oss-ready/actions/workflows/ci.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 > Audit a project directory **before** you make it public.
 
 `oss-ready` is a zero-dependency Python CLI that answers one question: *is this
@@ -18,7 +21,15 @@ files, one command.
 pip install .
 ```
 
-Or run it straight from a checkout:
+Or straight from GitHub:
+
+```bash
+git clone git@github.com:fzzzzz1/oss-ready.git
+cd oss-ready
+pip install .
+```
+
+Or run it from a checkout without installing:
 
 ```bash
 PYTHONPATH=src python -m oss_ready .
