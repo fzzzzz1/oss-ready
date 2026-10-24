@@ -1,0 +1,13 @@
+# Normalise line endings so contributors on Windows, macOS and Linux
+# produce identical diffs.
+* text=auto eol=lf
+
+# Binary assets should never be converted.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.woff2 binary
